@@ -1,42 +1,27 @@
 body {
-  padding: 0;
-  display: block;
+  position: relative;
+  min-height: 100%;
+}
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .hideme {
   display: none;
 }
 
-#header {
-  height: 70px;
-  text-align: center;
+.headerText {
+  position: relative;
 }
 
-#leftColumn {
-  max-width: 150px;
-  float: left;
-}
-
-#leftMenu,
-#registerBox {
-  padding-bottom: 20px;
-}
-
-#centerColumn {
-  width: 600px;
-  float: left;
-  padding-left: 90px;
-}
-
-#footer {
-  clear: both;
-}
-
-.menuCaption {
-  padding: 3px;
-  font-weight: bold;
-}
-
-.cartBox {
-  padding: 5px 0px 5px 0px;
+.fa-chevron-down {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 10px;
+  font-size: small;
 }

@@ -1,4 +1,4 @@
-{* orders page *}
+orders page
 
 <h2>Order details</h2>
 <form id="frmOrder" action="/cart/saveorder/" method="POST">

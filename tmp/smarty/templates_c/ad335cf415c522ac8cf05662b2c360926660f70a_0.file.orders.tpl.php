@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-07-10 11:18:24
+/* Smarty version 3.1.34-dev-7, created on 2020-07-10 14:11:31
   from 'C:\xampp\htdocs\myshop.local\views\default\orders.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5f08326039b7c2_03981414',
+  'unifunc' => 'content_5f085af337fcb2_73953348',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ad335cf415c522ac8cf05662b2c360926660f70a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\myshop.local\\views\\default\\orders.tpl',
-      1 => 1594372701,
+      1 => 1594383090,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f08326039b7c2_03981414 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f085af337fcb2_73953348 (Smarty_Internal_Template $_smarty_tpl) {
 ?><h2><?php echo $_smarty_tpl->tpl_vars['pageTitle']->value;?>
 </h2>
 

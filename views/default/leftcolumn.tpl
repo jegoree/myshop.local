@@ -1,24 +1,39 @@
-	<div id="leftColumn">
+	{* <div id="leftColumn"> *}
 
-	  <div id="leftMenu">
-	    <div class="menuCaption">Menu:</div>
-	    {foreach $rsCategories as $item}
-  	    <a href="/category/{$item['id']}/">{$item['name']}</a><br>
+	  <div class="col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-3">
+
+
+
+	    <div id="accordion">
+	      {foreach $rsCategories as $item name=count}
+  	      <div class="card">
+  	        <div class="card-header p-0">
+  	          <h5>
+  	            <div href="#collapse{$smarty.foreach.count.iteration}" data-parent="#accordion" data-toggle="collapse" class="p-3 headerText">{$item['name']}<i class="fas fa-chevron-down fa"></i></div>
+  	          </h5>
+  	        </div>
   
-  	    {if isset($item['children'])}
-    	    {foreach $item['children'] as $itemChild}
-      	    --<a href="/category/{$itemChild['id']}/">{$itemChild['name']}</a></br>
-    	    {/foreach}
-  	    {/if}
-	    {/foreach}
-	  </div>
+  
+  	        {if isset($item['children'])}
+    	        <div id="collapse{$smarty.foreach.count.iteration}" class="collapse">
+    	          <div class="card-body p-0">
+    	            <ul class="list-group">
+    	              {foreach $item['children'] as $itemChild name=count}
+      	              <li class="list-group-item p-0">
+      	                <a href="/category/{$itemChild['id']}/" class="d-block p-2">
+      	                  {$itemChild['name']}</a>
+      	              </li>
+    	              {/foreach}
+    	            </ul>
+    	          </div>
+    	        </div>
+  	        {/if}
+  	      </div>
+	      {/foreach}
+	    </div>{*ACCORDION*}
 
 
-	  <div>
-	    <div class="menuCaption">Shopping cart</div>
-	    <a href="/cart/" title="Go to cart">In cart: </a>
-	    <span id="cartCntItems">
-	      {if $cartCntItems > 0}{$cartCntItems}{else}Empty{/if}
-	    </span>
-	  </div>
-	</div>
+
+	  </div> {*COL*}
+
+	  <div class="col-sm-6 col-md-8 col-lg-9 col-xl-10 mb-3">

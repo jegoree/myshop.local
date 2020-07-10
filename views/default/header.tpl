@@ -52,11 +52,15 @@
             </ul>
           {/if}
 
+          <div class="text-light">
+            <a href="/cart/" title="Go to cart" class="text-light"><i class="fas fa-shopping-cart fa"></i> <span id="cartCntItems">
+                {if $cartCntItems > 0}{$cartCntItems}{else}0{/if}
+              </span></a>
+
+          </div>
         </div>
-      </div>
     </nav>
     <div class="container">
-      {include file='leftcolumn.tpl'}
+      <div class="row">
 
-
-      <div id="centerColumn">
+        {include file='leftcolumn.tpl'}
