@@ -1,18 +1,16 @@
 {* tamplte of home page*}
 
-<div class="col-md-9 pr-0">
+
+
+<div class="d-flex flex-wrap my-5">
   {foreach $rsProducts as $item name=products}
-    <div style="float: left; padding: 0px 30px 40px 0px;">
-      <a href="/product/{$item['id']}/">
-        <img src="/images/products/{$item['image']}" width="100px" alt="{$item['image']}" />
-      </a><br>
-      <a href="/product/{$item['id']}/">{$item['name']}</a>
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card">
+        <a href="/product/{$item['id']}/">
+          <img class="card-img-top" src="/images/products/{$item['image']}" width="100px" alt="{$item['image']}" />
+        </a>
+        <h4 class="card-title"><a href="/product/{$item['id']}/">{$item['name']}</a></h4>
+      </div>
     </div>
-  
-    {if $smarty.foreach.products.iteration mod 3 == 0}
-      <div style="clear:both"></div>
-    
-    {/if}
-  
   {/foreach}
 </div>

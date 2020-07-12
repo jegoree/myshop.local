@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-07-10 15:41:40
+/* Smarty version 3.1.34-dev-7, created on 2020-07-11 15:23:06
   from 'C:\xampp\htdocs\myshop.local\views\default\leftcolumn.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5f087014c0c243_84223712',
+  'unifunc' => 'content_5f09bd3aac2204_04219675',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '726de5a813a061ae61eb7f6a7f9d3c2d9f4d4f8c' => 
     array (
       0 => 'C:\\xampp\\htdocs\\myshop.local\\views\\default\\leftcolumn.tpl',
-      1 => 1594388500,
+      1 => 1594473785,
       2 => 'file',
     ),
   ),
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f087014c0c243_84223712 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f09bd3aac2204_04219675 (Smarty_Internal_Template $_smarty_tpl) {
 ?>	
-	  <div class="col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-3">
+	  <div class=" col-lg-3 my-5">
 
 
 
@@ -81,5 +81,5 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 
 
 	  </div> 
-	  <div class="col-sm-6 col-md-8 col-lg-9 col-xl-10 mb-3"><?php }
+	  <div class="col-lg-9"><?php }
 }

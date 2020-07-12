@@ -13,7 +13,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0 ">
       <div class="container">
         <a href="http://myshop.local/" class="navbar-brand">Mobiil </a>
 

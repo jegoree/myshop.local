@@ -1,6 +1,6 @@
 	{* <div id="leftColumn"> *}
 
-	  <div class="col-sm-4 col-md-4 col-lg-3 col-xl-2 mt-3">
+	  <div class=" col-lg-3 my-5">
 
 
 
@@ -36,4 +36,4 @@
 
 	  </div> {*COL*}
 
-	  <div class="col-sm-6 col-md-8 col-lg-9 col-xl-10 mb-3">
+	  <div class="col-lg-9">

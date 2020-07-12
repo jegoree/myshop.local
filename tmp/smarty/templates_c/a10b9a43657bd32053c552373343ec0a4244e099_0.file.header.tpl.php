@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-07-10 14:15:28
+/* Smarty version 3.1.34-dev-7, created on 2020-07-10 19:03:35
   from 'C:\xampp\htdocs\myshop.local\views\default\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5f085be0e6bba4_66246844',
+  'unifunc' => 'content_5f089f67b9ee93_24871752',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a10b9a43657bd32053c552373343ec0a4244e099' => 
     array (
       0 => 'C:\\xampp\\htdocs\\myshop.local\\views\\default\\header.tpl',
-      1 => 1594383325,
+      1 => 1594400401,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:leftcolumn.tpl' => 1,
   ),
 ),false)) {
-function content_5f085be0e6bba4_66246844 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f089f67b9ee93_24871752 (Smarty_Internal_Template $_smarty_tpl) {
 ?><html>
 
   <head>
@@ -45,7 +45,7 @@ css/style.css" type="text/css" />
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0 ">
       <div class="container">
         <a href="http://myshop.local/" class="navbar-brand">Mobiil </a>
 
