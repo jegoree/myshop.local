@@ -17,6 +17,15 @@ footer {
   position: relative;
 }
 
+.fa-chevron-up {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 10px;
+  font-size: small;
+}
+
 .fa-chevron-down {
   position: absolute;
   right: 15px;
@@ -24,4 +33,8 @@ footer {
   transform: translateY(-50%);
   margin-left: 10px;
   font-size: small;
+}
+
+li:hover {
+  cursor: pointer;
 }

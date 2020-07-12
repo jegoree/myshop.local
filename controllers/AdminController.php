@@ -42,7 +42,7 @@ function addnewcatAction(){
     $catParentId    = $_POST['generalCatId'];
 
     $res = insertCat($catName , $catParentId);
-    d($res);
+
     if($res){
         $resData['success'] = 1;
         $resData['message'] = 'Category added';
@@ -131,7 +131,7 @@ function addproductAction(){
     $itemCat   = $_POST['itemCat'];
     
     $res = insertProduct($itemName, $itemPrice, $itemDesc, $itemCat);
-
+    
     if($res) {
         $resData['success'] = 1;
         $resData['message'] = 'Product added';
@@ -145,6 +145,7 @@ function addproductAction(){
 }
 
 function updateproductAction(){
+
     $itemId     = $_POST['itemId'];
     $itemName   = $_POST['itemName'];
     $itemPrice  = $_POST['itemPrice'];      
@@ -190,7 +191,7 @@ function uploadAction(){
         if($res){
             $res = updateProductImage($itemId, $newFileName);
             if($res){
-                redirect('/admin/products');
+                redirect('/admin/products/');
             }
         } else {
             echo("Error while uploading file");

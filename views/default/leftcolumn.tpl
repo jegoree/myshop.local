@@ -1,6 +1,6 @@
 	{* <div id="leftColumn"> *}
 
-	  <div class=" col-lg-3 my-5">
+	  <div class=" col-lg-3 mt-5">
 
 
 
@@ -9,13 +9,13 @@
   	      <div class="card">
   	        <div class="card-header p-0">
   	          <h5>
-  	            <div href="#collapse{$smarty.foreach.count.iteration}" data-parent="#accordion" data-toggle="collapse" class="p-3 headerText">{$item['name']}<i class="fas fa-chevron-down fa"></i></div>
+  	            <div href="#collapse{$smarty.foreach.count.iteration}" data-parent="#accordion" data-toggle="collapse" class="p-3 headerText">{$item['name']}</div>
   	          </h5>
   	        </div>
   
   
   	        {if isset($item['children'])}
-    	        <div id="collapse{$smarty.foreach.count.iteration}" class="collapse">
+    	        <div id="collapse{$smarty.foreach.count.iteration}" class="collapse show">
     	          <div class="card-body p-0">
     	            <ul class="list-group">
     	              {foreach $item['children'] as $itemChild name=count}

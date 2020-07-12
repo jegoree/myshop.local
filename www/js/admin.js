@@ -102,6 +102,7 @@ function updateProduct(itemId) {
   var itemCatId = $('#itemCatId_' + itemId).val();
   var itemDesc = $('#itemDesc_' + itemId).val();
   var itemStatus = $('#itemStatus_' + itemId).val();
+  console.log(itemStatus);
   if (!itemStatus) {
     itemstatus = 1;
   } else {
@@ -161,7 +162,6 @@ function updateOrderStatus(itemId) {
   }
 
   var postData = { itemId: itemId, status: status };
-
   $.ajax({
     type: 'POST',
     async: true,

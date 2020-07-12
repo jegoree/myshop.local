@@ -50,7 +50,7 @@ function registerAction(){
 		$userData = registerNewUser($email, $pwdMD5, $name, $phone, $adress);
 
 		if($userData['success']) {
-			$resData['message'] = 'User succesfully registered';
+			$resData['message'] = 'User succesfully registered, please reload the page or navigate to any other link.';
 			$resData['success'] = 1;
 
 			$userData = $userData[0];
@@ -59,11 +59,15 @@ function registerAction(){
 
 			$_SESSION['user'] = $userData;
 			$_SESSION['user']['displayName'] = $userData['name'] ? $userData['name'] : $userData['email']; 
+
+
 		} else {
 			$resData['success'] = 0;
 			$resData['message'] = 'Error wile registering';
 		}
 	}
+
+
 	echo json_encode($resData);
 }
 

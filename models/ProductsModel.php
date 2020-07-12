@@ -151,6 +151,7 @@ function insertProduct($itemName, $itemPrice, $itemDesc, $itemCat){
 				`description` = '{$itemDesc}',
 				`category_id` = '{$itemCat}'";
 
+
 	global $db;
 	$rs = mysqli_query($db, $sql);
 	return $rs;
@@ -169,7 +170,7 @@ function updateProduct($itemId, $itemName, $itemPrice,
 			$set[] = "`price` = '{$itemPrice}'";
 		}
 
-		if($itemStatus !== null){
+		if($itemStatus === null){
 			$set[] = "`status` = '{$itemStatus}'";
 		}
 

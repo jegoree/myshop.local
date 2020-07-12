@@ -107,6 +107,8 @@ function registerNewUser() {
       }
     },
   });
+
+  location.reload();
 }
 
 function login() {

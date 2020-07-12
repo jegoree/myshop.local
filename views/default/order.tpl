@@ -1,6 +1,4 @@
-orders page
-
-<h2>Order details</h2>
+<h2 class="display-4 mt-5">Order details</h2>
 <form id="frmOrder" action="/cart/saveorder/" method="POST">
   <table>
     <tr>

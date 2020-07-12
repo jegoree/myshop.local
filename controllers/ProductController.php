@@ -34,7 +34,7 @@ function indexAction($smarty) {
 
 	// rs= recordset. Here we initialize this variable and store product details.
 	$rsProduct = getProductById($itemId);
-	// d($rsProduct);
+	
 
 	//get all categories. This is to build left menu. Since this page is generated on the fly you ahve to reestablish in every new controller.
 	$rsCategories = getAllMainCatsWithChildren();

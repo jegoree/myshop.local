@@ -1,6 +1,6 @@
 {* Users page *}
 
-<h1>Account details:</h1>
+<h1 class="display-4 mt-5">Account details:</h1>
 <table border="0">
   <tr>
     <td>Login (email)</td>

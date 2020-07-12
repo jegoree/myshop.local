@@ -1,4 +1,4 @@
-<h2>{$pageTitle}</h2>
+<h2 class="display-4 mt-5">{$pageTitle}</h2>
 
 
 {if !$rsUserOrders}

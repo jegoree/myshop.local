@@ -1,6 +1,6 @@
 {* Categories page *}
 
-<h1 class="mt-5">{$rsCategory['name']}</h1>
+<h1 class="display-4 mt-5">{$rsCategory['name']}</h1>
 
 <div class="d-flex flex-wrap mt-2 mb-5">
   {if $rsProducts or $rsChildCats}
