@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-07-12 15:09:50
+/* Smarty version 3.1.34-dev-7, created on 2020-07-12 18:15:42
   from 'C:\xampp\htdocs\myshop.local\views\default\order.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5f0b0b9ea39539_93657213',
+  'unifunc' => 'content_5f0b372e1519f9_98990739',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bf66c0d13ec0a03d8b01fd6ccc948ede379ce557' => 
     array (
       0 => 'C:\\xampp\\htdocs\\myshop.local\\views\\default\\order.tpl',
-      1 => 1594559388,
+      1 => 1594559567,
       2 => 'file',
     ),
   ),
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f0b0b9ea39539_93657213 (Smarty_Internal_Template $_smarty_tpl) {
-?><h2 class="mt-5">Order details</h2>
+function content_5f0b372e1519f9_98990739 (Smarty_Internal_Template $_smarty_tpl) {
+?><h2 class="display-4 mt-5">Order details</h2>
 <form id="frmOrder" action="/cart/saveorder/" method="POST">
   <table>
     <tr>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-07-12 15:27:15
+/* Smarty version 3.1.34-dev-7, created on 2020-07-12 18:27:42
   from 'C:\xampp\htdocs\myshop.local\views\default\cart.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5f0b0fb3e691f6_00647458',
+  'unifunc' => 'content_5f0b39fe5778f5_97430400',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e2e2ae3bb716da1dc2eed64fa7f294a5e6d46d91' => 
     array (
       0 => 'C:\\xampp\\htdocs\\myshop.local\\views\\default\\cart.tpl',
-      1 => 1594560434,
+      1 => 1594571261,
       2 => 'file',
     ),
   ),
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f0b0fb3e691f6_00647458 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f0b39fe5778f5_97430400 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
-<h1>Shopping cart</h1>
+<h1 class="display-4 mt-5">Shopping cart</h1>
 
 <?php if (!$_smarty_tpl->tpl_vars['rsProducts']->value) {?>
   Cart is empty.

@@ -1,6 +1,6 @@
 {* Cart page *}
 
-<h1>Shopping cart</h1>
+<h1 class="display-4 mt-5">Shopping cart</h1>
 
 {if !$rsProducts}
   Cart is empty.
